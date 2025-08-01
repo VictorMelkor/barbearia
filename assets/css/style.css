@@ -577,7 +577,8 @@ hr {
 
     #scrollUp,
     #back-top {
-        right: 16px
+        right: 16px;
+        
     }
 }
 
@@ -3423,7 +3424,7 @@ hr {
     .best-pricing .pricing-img .pricing-img1 {
         width: 35%;
         display: none;
-        
+
     }
 }
 
@@ -3451,7 +3452,7 @@ hr {
         position: unset;
         width: 70%;
         height: auto;
-        
+
     }
 }
 
@@ -3459,7 +3460,7 @@ hr {
     .best-pricing .pricing-img .pricing-img1 {
         position: unset;
         width: 80%;
-        
+
     }
 }
 
@@ -6995,4 +6996,20 @@ del {
 
 .switch-wrap {
     margin-bottom: 10px
+}
+
+/* Botão WhatsApp fixo */
+
+#whatsapp-img {
+    width: 50%;
+    display: none;
+}
+
+.whatsapp-btn {
+    display: none;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    background: #d19f68;
 }

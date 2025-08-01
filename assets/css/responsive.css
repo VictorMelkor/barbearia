@@ -12,22 +12,65 @@
     background-repeat: no-repeat;
     background-position: calc(60% + 20px) calc(100% - 250px);
   }
+
+
 }
 
 
 /* small mobile :320px. */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  .slider-area {
+    background-position: center left
+  }
+
+  .best-pricing {
+    text-align: center;
+  }
+
+  .best-pricing .pricing-img .pricing-img1 {
+    width: 90%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .footer-copy-right p {
+    padding-left: 15px;
+  }
+
+
+  .whatsapp-btn {
+    display: block;
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #25D366;
+    /* cor WhatsApp */
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    transition: transform 0.3s ease;
+  }
+
+  #whatsapp-img {
+    display: block;
+  }
+
+}
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container {
-        width: 450px
-    }
+  .container {
+    width: 450px
+  }
 
 }
 
 .icone-whatsapp {
-    max-height: 25px;
-    padding-right: 5px;
-    color: black;
+  max-height: 25px;
+  padding-right: 5px;
+  color: black;
 }
