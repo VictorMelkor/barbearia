@@ -1,19 +1,57 @@
+@media (min-width: 1500px) {
+  .slider-area {
+    background-position: bottom 40% center;
+
+  }
+}
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .slider-area {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: calc(60% + 20px) calc(100% - 250px);
+    background-position: calc(55% + 20px) calc(100% - 400px);
   }
 
 
+
+  .best-pricing .pricing-img .pricing-img1 {
+    display: none;
+  }
+
+  .best-pricing .pricing-img .pricing-img2 {
+    display: block;
+    margin-right: 0;
+    margin-left: -250px;
+
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .slider-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(60% + 20px) calc(100% - 400px);
+  }
+
+  .best-pricing {
+    text-align: center;
+  }
+
+  .best-pricing .pricing-img .pricing-img1 {
+    width: 90%;
+    height: auto;
+    margin-right: 0;
+  }
 }
 
 
@@ -57,15 +95,14 @@
 
   #whatsapp-img {
     display: block;
-    
+
   }
 
   #scrollUp,
-#back-top {
+  #back-top {
     right: 31px;
     bottom: 38px;
-    
-
+  }
 }
 
 /* Large Mobile :480px. */

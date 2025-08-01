@@ -2820,10 +2820,6 @@ hr {
     .slider-height2 {
         height: 350px
     }
-
-
-
-
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2886,7 +2882,9 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-area .hero__caption h1 {
-        font-size: 50px
+        font-size: 40px;
+        margin-right: 150px;
+        
     }
 }
 
@@ -3378,7 +3376,9 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .best-pricing .pricing-list ul li {
-        font-size: 14px
+        font-size: 14px;
+        margin-left: 0;
+        
     }
 }
 
@@ -3417,7 +3417,7 @@ hr {
     left: 0;
     top: 0;
     height: 909px;
-    width: auto
+    width: auto;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
