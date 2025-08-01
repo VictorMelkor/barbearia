@@ -6,8 +6,13 @@
 @media (min-width: 992px) and (max-width: 1200px) {}
 
 
-/* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(60% + 20px) calc(100% - 250px);
+  }
+}
 
 
 /* small mobile :320px. */

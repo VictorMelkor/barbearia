@@ -2819,6 +2819,10 @@ hr {
     .slider-height2 {
         height: 350px
     }
+
+
+
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3412,12 +3416,14 @@ hr {
     left: 0;
     top: 0;
     height: 909px;
-    width: 36%
+    width: auto
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .best-pricing .pricing-img .pricing-img1 {
-        width: 35%
+        width: 35%;
+        display: none;
+        
     }
 }
 
@@ -3443,7 +3449,9 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .best-pricing .pricing-img .pricing-img1 {
         position: unset;
-        width: 70%
+        width: 70%;
+        height: auto;
+        
     }
 }
 
@@ -3451,7 +3459,7 @@ hr {
     .best-pricing .pricing-img .pricing-img1 {
         position: unset;
         width: 80%;
-        height: 450px
+        
     }
 }
 
@@ -3497,7 +3505,8 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .best-pricing .pricing-img .pricing-img2 {
-        bottom: 9%
+        bottom: 9%;
+        display: none;
     }
 }
 
